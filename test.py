@@ -7,3 +7,7 @@ def test1():
     pprint(response.json())
     print()
     print(f'Status code: {response.status_code}')
+
+
+def test_second():
+    pass
