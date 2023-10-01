@@ -3,3 +3,4 @@ class Urls:
     post_url = 'catalog/api/v1/products'
     get_url = 'catalog/api/v1/products/35'
     token_url = 'accountservice/accountrest/api/v1/login'
+    delete_url = 'catalog/api/v1/products/187'

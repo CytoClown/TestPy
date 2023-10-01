@@ -27,4 +27,14 @@ class Test:
         print(f'Status code: {response.status_code}')
         pprint(response.json())
 
+    def test_put(self):
+        response = requests.put(f'{self.base_url.base_url}{self.base_url.get_url}', headers=self.headers.header_post, json=self.J_data.put_data)
+        assert response.status_code == 200, f'Status code is not {response.status_code}'
+        print(f'Status code: {response.status_code}')
+        pprint(response.json())
 
+    def test_delete(self):
+        response = requests.delete(f'{self.base_url.base_url}{self.base_url.delete_url}', headers=self.headers.header_del)
+        assert response.status_code == 200, f'Status code is not {response.status_code}'
+        print(f'Status code: {response.status_code}')
+        pprint(response.json())

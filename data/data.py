@@ -26,8 +26,34 @@ class Data:
         "DD3A5B##1101",
         "DEEE5B##1101"
       ],
-      "price": 267,
+      "price": 300,
       "productId": 33,
+      "productName": "Notebook",
+      "productStatus": "Active"
+    }
+
+    put_data = {
+      "attributes": [
+        {
+          "attributeName": "qw",
+          "attributeValue": "Intel"
+        }
+      ],
+      "categoryId": 1,
+      "colors": [
+        {
+          "code": "C3C3C3",
+          "inStock": 10,
+          "name": "Gray"
+        }
+      ],
+      "description": "string",
+      "imageUrl": "1100",
+      "images": [
+        "DD3A5B##1101"
+      ],
+      "price": 350,
+      "productId": 160,
       "productName": "Notebook",
       "productStatus": "Active"
     }
